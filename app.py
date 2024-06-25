@@ -28,7 +28,7 @@ K = st.number_input('Potassium', min_value=0, max_value=100, step=1)
 temperature = st.number_input('Temperature (°C)', min_value=0.0, max_value=50.0, step=0.1)
 humidity = st.number_input('Humidity (%)', min_value=0.0, max_value=100.0, step=0.1)
 ph = st.number_input('pH', min_value=0.0, max_value=14.0, step=0.1)
-rainfall = st.number_input('Rainfall (mm)', min_value=0.0, max_value=500.0, step=0.1)
+rainfall = st.number_input('Rainfall (mm)', min_value=0.0, max_value=300.0, step=0.1)
 
 # Prediction
 if st.button('Get Recommendation'):
